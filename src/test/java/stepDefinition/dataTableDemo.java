@@ -52,7 +52,7 @@ public class dataTableDemo {
 			  driver.findElement(By.id("password")).sendKeys(data.get("password"));
 			  driver.findElement(By.id("login")).click();
 			   driver.get("https://adactinhotelapp.com/");
-			System.out.println(enter username"+priyanka+");
+			
 			  
 		}
 
@@ -68,6 +68,7 @@ public class dataTableDemo {
 		
 		WebElement e1=driver.findElement(By.id("username_show"));
 		 String greeting=e1.getAttribute("value"); Assert.assertEquals(greeting, ExpectedText);
+		System.out.println("Hello vasuvespag!");
 		 
 	}
 	
