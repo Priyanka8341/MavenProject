@@ -69,6 +69,7 @@ public class dataTableDemo {
 		 String greeting=e1.getAttribute("value"); Assert.assertEquals(greeting, ExpectedText);
 		 
 	}
+	System.out.println(enter username"+priyanka+");
 
 	@Before
 	   public void Login() {
@@ -79,6 +80,7 @@ public class dataTableDemo {
 	   public void exit() {
 		  driver.quit();
 	   }
+
 
 
 }
